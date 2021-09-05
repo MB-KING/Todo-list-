@@ -1,0 +1,34 @@
+/* responsive part  */
+@media only screen and (max-width: 575px) {
+  header {
+    font-size: 1rem;
+  }
+  form input {
+    width: 20%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 766px) {
+  header {
+    font-size: 1.5rem;
+  }
+  form input {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .twitchembed {
+    height: 392px !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .twitchembed {
+    height: 527px !important;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .twitchembed {
+    height: 628px !important;
+  }
+}
+@media only screen and (min-width: 1400px) {
+}

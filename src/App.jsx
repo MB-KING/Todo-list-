@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
-import "./app.css";
+import "./App.css";
+import "./responsive.css";
 import Header from "./component/Header";
 import Form from "./component/Form";
 import TodoList from "./component/TodoList";
+
 function App() {
   const [inputText, setInputText] = useState("");
   const [todos, setTodos] = useState([]);
